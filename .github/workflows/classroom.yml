@@ -24,7 +24,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install Conda
-      uses: s-weigand/setup-conda@v1.0.2
+      uses: s-weigand/setup-conda@v1.0.5
       with:
         python-version: 3.6
     
