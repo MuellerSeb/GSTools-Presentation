@@ -1,7 +1,7 @@
 var Config = {
-    title: "Sample Lecture",
+    title: "GSTools Presentation",
     // put the url of the deployed application here
-    url: "https://hydrocode-de.github.io/sample-lecture-python",
+    url: "https://muellerseb.github.io/GSTools-Presentation",
     navigation: [
         {
             label: "Home",
@@ -11,39 +11,17 @@ var Config = {
         },
         
         {
-            label: "Notebooks",
-            navigation: [
-                {
-                    label: "Overview",
-                    link: "sample_lecture.html"
-                },
-                {
-                    label: "Plots",
-                    link: "interactive_plots.html"
-                }
-            ]
-        },
-        
-        {
             label: "Presentations",
             navigation: [
                 {
-                    label: "Overview",
-                    link: "sample_lecture.slides.html"
+                    label: "Transform 2021",
+                    link: "Transform2021.slides.html"
                 },
                 {
-                    label: "Plots",
-                    link: "interactive_plots.slides.html"
+                    label: "EGU 2020",
+                    link: "EGU2020.slides.html"
                 }
             ]
-        },
-        
-        // please do not remove this page
-        // as it describes that you are using a hydrocode application
-        {
-            label: "About",
-            link: "about.md",
-            type: "static"
         }
     ]        
 };

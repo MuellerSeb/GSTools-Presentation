@@ -1,13 +1,11 @@
 name: lecture-py
 channels: 
-  - defaults
+  - conda-forge
 dependencies:
   - python=3.7
   - jupyter
-  - bokeh=1.4.0
-  - plotly
   - matplotlib
-  - pandas
-  - holoviews
+  - gstools
+  - pip
   - pip:
     - rise==5.6.1

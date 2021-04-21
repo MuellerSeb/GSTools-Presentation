@@ -31,7 +31,6 @@ jobs:
     - name: Install dependencies
       run: | 
         conda env update -f environment.yml -n base
-        pip install -r ./requirements.txt
         
     # Compile notebooks
     - name: Compile Notebooks
