@@ -1,0 +1,13 @@
+name: lecture-py
+channels: 
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyter
+  - bokeh=1.4.0
+  - plotly
+  - matplotlib
+  - pandas
+  - holoviews
+  - pip:
+    - rise==5.6.1
