@@ -1,7 +1,7 @@
 var Config = {
     title: "GSTools Presentation",
     // put the url of the deployed application here
-    url: "https://muellerseb.github.io/GSTools-Presentation",
+    url: "https://muellerseb.github.io/GSTools-Presentation/",
     navigation: [
         {
             label: "Home",
